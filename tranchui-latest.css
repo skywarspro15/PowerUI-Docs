@@ -304,6 +304,22 @@ ul.cards {
   opacity: 0;
 }
 
+.ql-toolbar {
+  transform: translateY(70px);
+  display: block;
+  animation: fadeIn 500ms;
+}
+
+.ql-toolbar .ql-stroke {
+  fill: none;
+  stroke: #fff;
+}
+
+.ql-toolbar .ql-fill {
+  fill: #fff;
+  stroke: none;
+}
+
 @keyframes slideDown {
   0% {
     transform: translateY(-250px);
